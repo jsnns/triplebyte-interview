@@ -1,0 +1,26 @@
+.board {
+    width: 100vw;
+    flex-direction: row;
+    flex: 1;
+    display: flex;
+    padding: 25px;
+    box-sizing: border-box;
+    &:first-child {
+        padding-right: 0px;
+    }
+}
+
+.column {
+    width: 25vw;
+    padding-right: 25px;
+    flex-direction: row;
+    justify-content: center;
+
+    // column title
+    p.title {
+        text-align: center;
+        height: 30px;
+        color: white;
+        background-color: black;
+    }
+}
